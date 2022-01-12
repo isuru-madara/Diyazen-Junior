@@ -1,0 +1,9 @@
+<launch>
+
+    <node pkg="rviz" 
+    	  type="rviz" 
+    	  name="rviz" 
+    	  required="true"
+          args="-d $(find diyazen_navigation)/rviz/diyazen_navigation.rviz"/>
+
+</launch>

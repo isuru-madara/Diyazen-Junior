@@ -1,0 +1,1 @@
+sudo apt-get install -y ros-kinetic-gmapping ros-kinetic-joy ros-kinetic-global-planner ros-kinetic-ecl-threads ros-kinetic-move-base-msgs ros-kinetic-dwa-local-planner ros-kinetic-turtlebot-teleop ros-kinetic-eband-local-planner ros-kinetic-range-sensor-layer ros-kinetic-move-base ros-kinetic-map-server ros-kinetic-amcl

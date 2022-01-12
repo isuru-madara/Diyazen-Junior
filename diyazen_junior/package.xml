@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>diyazen_junior</name>
+  <version>0.0.1</version>
+  <description>This metapackage bundles together few packages to run a simulated small scale Diyazen robot</description>
+  <maintainer email="isuru.madarasinghe@arimaclanka.com">isuru</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export>
+    <metapackage />
+  </export>
+
+</package>

@@ -1,0 +1,8 @@
+<launch>
+
+	<!--The gazebo environment-->
+	<include file="$(find diyazen_gazebo)/launch/diyazen_world.launch"/>
+	<!--Navigation stack + RViz-->
+	<include file="$(find diyazen_navigation)/launch/gmapping_demo.launch"/>
+
+</launch>
