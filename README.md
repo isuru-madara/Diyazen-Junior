@@ -106,7 +106,7 @@ This is a metapackage for adding Diyazen Junior to your project.
 1. First of all clone this repository to your local workspace package level (inside the src directory). 
 
     ```sh
-    git clone git@gitlab.com:arimac-robotics/diyazen-junior.git
+    git clone https://github.com/isuru-madara/Diyazen-Junior.git
     ```
 
 2. Install all the system dependencies required to run the simulation.
