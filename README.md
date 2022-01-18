@@ -113,7 +113,14 @@ This is a metapackage for adding Diyazen Junior to your project.
 
     ```sh
     rosdep update
-
+    ```
+    Navigate back to the root of the workspace
+    
+    ```sh
+    cd ../
+    ```
+    
+    ```sh
     rosdep install --from-paths src --ignore-src --rosdistro=kinetic -y
     ```
     At this point rosdep will install <u>almost</u> all dependencies required to run the simulation. However, it might not have keys for all the Debian binaries that is needed for the simulation. For example, it might be missing the package `gmapping` which we will later user for SLAM. Note down all the missing packages reported by rosdep and install them manually using `apt-get` as follows,
